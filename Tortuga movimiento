@@ -1,0 +1,54 @@
+Created on Tue Jun 21 19:18:50 2022
+
+@author: Felipe
+"""
+import turtle 
+
+tortuga=turtle.Turtle()
+tortuga.color("blue", "green")
+
+
+tortuga.begin_fill()
+
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.end_fill()
+
+
+tortuga.penup()
+tortuga.forward(100)
+tortuga.pendown()
+
+tortuga.begin_fill()
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+tortuga.left(90)
+tortuga.forward(100)
+
+tortuga.end_fill()
+
+turtle.done()
